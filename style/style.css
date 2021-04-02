@@ -5,6 +5,14 @@
 body{
   background-color: #472b00;
 }
+/*--- Hero Banner---- */
+header{
+  background-image: url(http://www.gwenorain.com/autoPhoto/images/HeroBanner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
 /* Nav*/
 .navbar-collapse{
   display: flex;
@@ -12,6 +20,7 @@ body{
 }
 .nav-item{
   margin-right: 2rem;
+  padding: 1rem;
 }
 .nav-item:hover{
   background-color: #1e0047;
