@@ -1,8 +1,25 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+/* General */
 body{
   background-color: #472b00;
 }
-
-
+/* Nav*/
+.navbar-collapse{
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-item{
+  margin-right: 2rem;
+}
+.nav-item:hover{
+  background-color: #1e0047;
+  border-radius: 1rem;
+}
+.nav-link{
+  font-family: 'Recursive', sans-serif; 
+}
 
 
 
