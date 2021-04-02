@@ -5,30 +5,47 @@
 body{
   background-color: #472b00;
 }
+.homePage{
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 1200px) { 
+  .homePage{
+    width: 80vw;
+  }
+ }
 /*--- Hero Banner---- */
 header{
   background-image: url(http://www.gwenorain.com/autoPhoto/images/HeroBanner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50vh;
+  background-position: top left;
+  height: 40vh;
 }
-
 /* Nav*/
+.navbar-toggler, .navbar-collapse{
+  background-color: hsla(265, 100%, 20%,0.8);
+}
 .navbar-collapse{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .nav-item{
   margin-right: 2rem;
   padding: 1rem;
 }
-.nav-item:hover{
-  background-color: #1e0047;
-  border-radius: 1rem;
-}
 .nav-link{
   font-family: 'Recursive', sans-serif; 
 }
-
+@media screen and (min-width: 768px){
+  .navbar-collapse{
+    justify-content: flex-end;
+    background-color: transparent;
+  }
+  .nav-item:hover{
+    background-color: #1e0047;
+    border-radius: 1rem;
+  }
+}
 
 
