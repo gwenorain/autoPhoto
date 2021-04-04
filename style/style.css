@@ -15,7 +15,7 @@ body{
   }
  }
 /*--- Hero Banner---- */
-header{
+.heroBanner{
   background-image: url(http://www.gwenorain.com/autoPhoto/images/HeroBanner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
