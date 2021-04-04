@@ -26,14 +26,7 @@ body{
 .navbar-toggler, .navbar-collapse{
   background-color: hsl(265, 100%, 20%);
 }
-.navbar-collapse-homePage{
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  top : 4em;
-  right: 1em;
-  width: 70%;
-}
+
 .nav-item{
   margin-right: 2rem;
   padding: 1rem;
