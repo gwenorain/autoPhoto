@@ -3,7 +3,7 @@
 
 /* General */
 body{
-  background-color: #472b00;
+  background-color: #fff;
 }
 .homePage, main{
   margin: 0;
@@ -66,8 +66,18 @@ header{
   }
 }
 .jumbotron h1{
-  font-family: 'Recursive', sans-serif
+  font-family: 'Recursive', sans-serif;
 }
 .jumbotron p{
   font-family: 'Roboto', sans-serif;
+}
+/*-- Introduction --*/
+.intro{
+  background-color: #472b00;
+}
+.intro h2{
+  font-family: 'Recursive', sans-serif;
+}
+.intro p{
+  font-family:  'Roboto', sans-serif;
 }
