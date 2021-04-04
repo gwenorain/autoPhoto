@@ -81,3 +81,8 @@ header{
 .intro p{
   font-family:  'Roboto', sans-serif;
 }
+
+/*-- Members --*/
+.members{
+  background-color:#1e0047 ;
+}
