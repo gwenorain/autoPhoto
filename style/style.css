@@ -29,7 +29,7 @@ body{
 }
 /*--- Hero Banner---- */
 .heroBanner{
-  background-image: url(http://www.gwenorain.com/autoPhoto/images/HeroBanner.jpg);
+  background-image: url(../images/photo/hero-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
