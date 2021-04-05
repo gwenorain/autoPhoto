@@ -10,7 +10,7 @@ body{
   padding: 0;
 }
 @media (min-width: 1200px) { 
-  .homePage{
+  .homePage, .eventPage, footer{
     width: 80vw;
   }
  }
