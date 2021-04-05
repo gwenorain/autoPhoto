@@ -14,19 +14,7 @@ body{
     width: 80vw;
   }
  }
-/*--- Hero Banner---- */
-.heroBanner{
-  background-image: url(http://www.gwenorain.com/autoPhoto/images/HeroBanner.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top left;
-  height: 40vh;
-}
 /* Nav*/
-.navbar-toggler, .navbar-collapse{
-  background-color: hsl(265, 100%, 20%);
-}
-
 .nav-item{
   margin-right: 2rem;
   padding: 1rem;
@@ -37,21 +25,25 @@ body{
 @media screen and (min-width: 768px){
   .navbar-collapse{
     justify-content: flex-end;
-    background-color: transparent;
-    position: static;
-    top: 0em;
-  }
-  .nav-item:hover{
-    background-color: hsla(265, 100%, 20%,0.8);
-    border-radius: 1rem;
   }
 }
-/*Jumbotron*/
+/*--- Hero Banner---- */
+.heroBanner{
+  background-image: url(http://www.gwenorain.com/autoPhoto/images/HeroBanner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .jumbotron {
   text-align: center;
   background-color:hsla(265, 100%, 20%,0.8);
   border-radius: 1em;
   width: 80%;
+  align-self: center;
 }
 @media screen and (min-width: 768px){
   .jumbotron{
