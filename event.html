@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Evénements - Auto Photo</title>
+  <meta name="description" content="Retrouvez tous les evénements de l'association Auto Photo." />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
 </head>
@@ -37,12 +38,19 @@
       </nav>
     </header>
     <main class="eventMain row row-cols-1 row-cols-lg-2 p-5">
-      <article class="card mb-3">
-        <img src="images/photo/projet_matrix_facebook.jpg" class="card-img-top" alt="...">
+      <article class="card mb-3"itemscope itemtype="http://schema.org/Event">
+        <img src="images/photo/projet_matrix_facebook.jpg" class="card-img-top" alt="photo multiple matrix" itemprop="image">
         <section class="card-body">
-          <h5 class="card-title">Exposition</h5>
-          <p class="card-text">Venez découvrir une exposition d'autoportraits multiples.</p>
-          <p class="card-text"><small>Le Triomphe - 6 place de la Nation 75012 Paris - du 1er  janvier 2021 au 1er mars 2021 </small></p>
+          <h5 class="card-title" itemprop="name">Exposition</h5>
+          <p class="card-text" itemprop="description">Venez découvrir une exposition d'autoportraits multiples.</p>
+          <p class="card-text"><small>
+            <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+            <span itemprop="name">Le Triomphe</span> - 
+            <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="streetAddress">6 place de la Nation</span> 
+            <span itemprop="postalCode">75012</span> 
+            <span itemprop="addressLocality">Paris</span> </span></span>- du 
+            <span itemprop="startDate" content="2021-01-01">1er  janvier 2021</span> au 1er mars 2021 </small></p>
           <div class="embed-responsive embed-responsive-21by9 w-75">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5251.1246678347625!2d2.3904550687181993!3d48.8474864093266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6727183ab516d%3A0x677505daf17820de!2s6%20Place%20de%20la%20Nation%2C%2075012%20Paris!5e0!3m2!1sfr!2sfr!4v1617557267016!5m2!1sfr!2sfr"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
@@ -50,11 +58,11 @@
           <p class="card-text"><small class="text-muted"> Cliquer sur la carte pour l'agrandir </small></p>
         </section>
       </article>
-      <article class="card mb-3">
-        <img src="images/photo/suspect.jpg" class="card-img-top" alt="...">
+      <article class="card mb-3" itemscope itemtype="http://schema.org/Event">
+        <img src="images/photo/suspect.jpg" class="card-img-top" alt="phto autoportrait ususal suspect" itemprop="image">
         <section class="card-body">
-          <h5 class="card-title">Rencontre</h5>
-          <p class="card-text">Rencontrez nous tous les jeudi soir à 20h00 sur ZOOM</p>
+          <h5 class="card-title" itemprop="name">Rencontre</h5>
+          <p class="card-text" itemprop="description">Rencontrez nous tous les jeudi soir à 20h00 sur ZOOM</p>
           <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#zoomModal">
             Rejoindre la discussion
           </button>
