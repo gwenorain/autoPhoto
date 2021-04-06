@@ -9,11 +9,6 @@ body{
   margin: 0;
   padding: 0;
 }
-@media (min-width: 1200px) { 
-  .homePage, .eventPage, footer{
-    width: 80vw;
-  }
- }
 /* Nav*/
 .nav-item{
   margin-right: 2rem;
